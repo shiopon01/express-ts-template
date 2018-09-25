@@ -1,0 +1,10 @@
+{
+  "extends": "tslint-microsoft-contrib",
+  "rules": {
+      "no-console": [""],
+      "no-relative-imports": false,
+      "no-http-string": false,
+      "no-backbone-get-set-outside-model": false,
+      "no-implicit-dependencies": [true, "dev"]
+  }
+}
